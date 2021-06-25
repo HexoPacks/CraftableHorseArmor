@@ -1,0 +1,71 @@
+{
+    "criteria": {
+        "has_golden_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:golden_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_gold_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gold_ingot"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_golden_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:golden_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_wool"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_golden_helmet"
+        ],
+        [
+            "has_gold_ingot"
+        ],
+        [
+            "has_golden_leggings"
+        ],
+        [
+            "has_wool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "crafting:golden_horse_armor"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "criteria": {
+        "has_diamond_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_diamond_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_wool"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_diamond_helmet"
+        ],
+        [
+            "has_diamond"
+        ],
+        [
+            "has_diamond_leggings"
+        ],
+        [
+            "has_wool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "crafting:diamond_horse_armor"
+        ]
+    }
+}
